@@ -1,0 +1,12 @@
+setup.py
+access_man/__init__.py
+access_man/http_server.py
+access_man/settings.py
+access_man/token.py
+access_man/utils.py
+retail_access_man.egg-info/PKG-INFO
+retail_access_man.egg-info/SOURCES.txt
+retail_access_man.egg-info/dependency_links.txt
+retail_access_man.egg-info/requires.txt
+retail_access_man.egg-info/top_level.txt
+test/__init__.py
