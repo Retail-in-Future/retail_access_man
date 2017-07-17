@@ -1,0 +1,12 @@
+FROM fedora:25
+
+RUN dnf install -y python-pip
+RUN pip install --upgrade pip
+RUN pip install nose pyyaml
+
+ENV PROJECT_PATH=/root/project
+
+WORKDIR $PROJECT_PATH
+COPY ./ retail-access-man/
+
+WORKDIR $PROJECT_PATH/retail-access-man
