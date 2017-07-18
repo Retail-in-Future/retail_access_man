@@ -4,3 +4,6 @@ retail_access_man.egg-info
 .tox
 .idea
 .DS_Store
+*.pyc
+build
+dist
