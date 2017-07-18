@@ -7,3 +7,5 @@ pip install redis
 
 Run http server:
 python access_man/http_server.py
+
+access http://127.0.0.1:5000 in browser, type any username and password.
