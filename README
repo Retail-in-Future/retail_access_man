@@ -1,1 +1,9 @@
-#Retail AccessManage Service
+Retail AccessManage Service
+
+Prepare:
+
+pip install eve
+pip install redis
+
+Run http server:
+python access_man/http_server.py
